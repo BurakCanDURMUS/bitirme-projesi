@@ -1,0 +1,38 @@
+
+.cart {
+    width: 100%; /* Kartı sayfanın genişliği kadar yapar */
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .cart:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cart h2 {
+    font-size: 1.2em;
+    margin-bottom: 8px;
+  }
+  
+  .cart p {
+    margin: 5px 0;
+  }
+  .cart button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .cart button:hover {
+    background-color: #45a049;
+  }
+  
